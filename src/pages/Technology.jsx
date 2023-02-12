@@ -97,8 +97,16 @@ function Technology() {
                   </ContainerStyled>
                 </SubHeader>
 
-                <img src={tech.images.landscape} className="displaySmall" />
-                <img src={tech.images.portrait} className="displayLarge" />
+                <img
+                  src={tech.images.landscape}
+                  className="displaySmall"
+                  alt={tech.name}
+                />
+                <img
+                  src={tech.images.portrait}
+                  className="displayLarge"
+                  alt={tech.name}
+                />
               </section>
             </FlexBox>
           </SwiperSlide>

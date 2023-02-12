@@ -107,10 +107,10 @@ const GlobalStyle = createGlobalStyle`
     color: ${({ theme }) => theme.colors.white};
       border: 1px solid #979797;
       opacity: 1;
-  }
-  &-active {
-    color: ${({ theme }) => theme.colors.primary};
-    background: ${({ theme }) => theme.colors.white};
+      &-active {
+        color: ${({ theme }) => theme.colors.primary};
+        background: ${({ theme }) => theme.colors.white};
+      }
   }
 }
 

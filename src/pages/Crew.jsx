@@ -8,6 +8,7 @@ import crewBackgroundTablet from "../assets/crew/background-crew-tablet.jpg";
 import crewBackgroundMobile from "../assets/crew/background-crew-mobile.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+// eslint-disable-next-line
 import SwiperCore, { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -96,7 +97,7 @@ function Crew() {
                     <span>02</span>
                     Meet your Crew
                   </SubHeader>
-                  <img src={member.images.png} alt="" />
+                  <img src={member.images.png} alt={member.name} />
                 </section>
               </FlexBox>
             </SwiperSlide>
