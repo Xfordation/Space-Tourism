@@ -37,7 +37,7 @@ function Nav() {
       <button className="toggleButton" onClick={onClick}>
         {toggleNav ? <FaTimes /> : <FaBars />}
       </button>
-      {(toggleNav || screenWidth > 500) && (
+      {(toggleNav || screenWidth > 600) && (
         <ol start="0">
           <li
             onClick={() => navigate("/")}

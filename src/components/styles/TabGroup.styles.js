@@ -6,12 +6,12 @@ export const TabGroup = styled.div`
   gap: ${({ gap }) => gap ?? "2rem"};
   width: 100%;
   /* Media Query Tablet */
-  @media (max-width: 820px) {
+  @media (max-width: 992px) {
     justify-content: ${({ justifyContent }) => justifyContent ?? "center"};
   }
 
   /* Media Query Mobile */
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     gap: ${({ mobileGap }) => mobileGap ?? "2rem"};
     flex-direction: ${({ flexDirection }) => flexDirection ?? "row"};
   }

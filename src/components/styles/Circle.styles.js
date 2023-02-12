@@ -69,12 +69,12 @@ export const Circle = styled.div`
 
   /* Media Query */
   /* Tablet */
-  @media (max-width: 820px) {
+  @media (max-width: 992px) {
     float: none;
     margin: auto;
   }
   /* Mobile */
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     width: 200px;
     height: 200px;
     border-radius: 100px;

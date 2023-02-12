@@ -28,8 +28,18 @@ export const ContainerStyled = styled.div`
     width: 768px;
   }
 
+  /* Tablet 3 */
+  @media (max-width: 992px) {
+    width: 960px;
+  }
+
+  /* Tablet 4 */
+  @media (max-width: 912px) {
+    width: 820px;
+  }
+
   /* Mobile */
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     width: 100%;
     padding: 0 1rem;
   }

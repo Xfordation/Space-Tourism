@@ -162,7 +162,7 @@ const GlobalStyle = createGlobalStyle`
 
 
   /* Media Query Tablet */
-@media (max-width: 820px) {
+@media (max-width: 992px) {
     .swiper-pagination{
         margin: auto;
         align-items: center;
@@ -201,7 +201,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
   /* Media Query Mobile */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     h1{
         font-size: 100px;
      }
@@ -263,9 +263,9 @@ const GlobalStyle = createGlobalStyle`
         }
     }
     .vertical-bullet{
-    height: 70px;
-    width: 70px;
-    line-height: 70px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
     margin: auto;
     text-align: center;
     }

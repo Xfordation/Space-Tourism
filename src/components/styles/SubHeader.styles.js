@@ -13,14 +13,14 @@ export const SubHeader = styled.h5`
   }
 
   /* Media Query Tablet */
-  @media (max-width: 820px) {
+  @media (max-width: 992px) {
     top: ${({ topTablet }) => topTablet ?? "0"};
     width: ${({ tabletWidth }) => tabletWidth ?? "100%"};
     text-align: left;
   }
 
   /* Media Query Mobile */
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     text-align: center;
   }
 `;

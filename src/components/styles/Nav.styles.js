@@ -78,7 +78,7 @@ export const NavigationStyled = styled.nav`
   }
 
   /* Media Query Tablet */
-  @media (max-width: 820px) {
+  @media (max-width: 992px) {
     padding: 1.5rem;
     .hr {
       display: none;
@@ -97,7 +97,7 @@ export const NavigationStyled = styled.nav`
   }
 
   /* Media Query Mobile */
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     .toggleButton {
       display: block;
       cursor: pointer;

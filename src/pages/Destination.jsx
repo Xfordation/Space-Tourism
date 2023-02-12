@@ -38,12 +38,21 @@ function Destination() {
       backgroundMobile={destinationMobileBackground}
     >
       <ContainerStyled>
-        <SubHeader topDesktop="20%" topTablet="10%" tabletWidth="max-content">
+        <SubHeader
+          topDesktop="20%"
+          topTablet="10%"
+          tabletWidth="max-content"
+          className="displayLarge"
+        >
           <span>01</span>
           Pick Your Destination
         </SubHeader>
         <FlexBox properties={flexboxProperties}>
           <section>
+            <SubHeader position="unset" className="displaySmall margin-y">
+              <span>01</span>
+              Pick Your Destination
+            </SubHeader>
             {destinations.map((destination) =>
               destination.name === active ? (
                 <img

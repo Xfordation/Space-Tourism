@@ -13,12 +13,12 @@ export const BackgroundStyled = styled.div`
 
   /* Media Query */
   /* Tablet */
-  @media (max-width: 820px) {
+  @media (max-width: 992px) {
     /* Custom Background */
     background-image: url(${({ backgroundTablet }) => backgroundTablet});
   }
   /* Mobile */
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     height: auto;
     /* Custom Background */
     background-image: url(${({ backgroundMobile }) => backgroundMobile});

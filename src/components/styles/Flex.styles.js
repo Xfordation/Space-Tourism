@@ -41,7 +41,7 @@ export const FlexBox = styled.div`
   }
 
   /* Media Query Tablet */
-  @media (max-width: 820px) {
+  @media (max-width: 992px) {
     text-align: center;
     gap: ${({ properties }) => properties.tablet.gap ?? "1rem"};
 
@@ -65,16 +65,25 @@ export const FlexBox = styled.div`
     section {
       width: 100%;
     }
+    .planetImg {
+      height: max-content;
+      width: ${({ properties }) => properties.tablet.imageWidth ?? "100%"};
+    }
   }
 
   /* Media Query Mobile */
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     padding: 5rem 0;
     flex-direction: ${({ properties }) =>
       properties.mobile.columnPosition ?? "column"};
 
     img {
       margin: 0 auto;
+      height: max-content;
+      width: ${({ properties }) =>
+        properties.mobile.imageWidth ?? properties.tablet.imageWidth};
+    }
+    .planetImg {
       height: max-content;
       width: ${({ properties }) =>
         properties.mobile.imageWidth ?? properties.tablet.imageWidth};
