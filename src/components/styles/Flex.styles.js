@@ -84,9 +84,8 @@ export const FlexBox = styled.div`
         properties.mobile.imageWidth ?? properties.tablet.imageWidth};
     }
     .planetImg {
-      height: max-content;
-      width: ${({ properties }) =>
-        properties.mobile.imageWidth ?? properties.tablet.imageWidth};
+      height: 170px !important;
+      width: 170px !important;
     }
     .subHeadPos {
       margin: 1rem auto;

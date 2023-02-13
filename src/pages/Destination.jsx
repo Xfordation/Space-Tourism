@@ -56,7 +56,7 @@ function Destination() {
             {destinations.map((destination) =>
               destination.name === active ? (
                 <img
-                  className="margin-y planetImg rotatePlanet"
+                  className="margin-y planetImg"
                   src={destination.images.png}
                   key={destination.name}
                   alt={destination.name}
